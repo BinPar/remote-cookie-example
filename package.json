@@ -28,9 +28,16 @@
   "license": "ISC",
   "homepage": "https://binpar.com",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ngrok": "^4.0.1",
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.41",
     "@typescript-eslint/eslint-plugin": "^4.22.0",

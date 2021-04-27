@@ -33,4 +33,6 @@ COPY --from=compile /usr/src/app/dist ./dist
 
 # Expose port and define CMD
 ENV NODE_ENV production
+ENV PORT 80
+EXPOSE 80/tcp
 CMD npm run start
